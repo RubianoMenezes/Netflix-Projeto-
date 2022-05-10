@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#container{
+    background: url("./img/background.jpeg");
+    height: 120vh;
+    width: 98.7vw;
+    padding-bottom: 140px;
+    
+}
+
+#logo-netflix{
+    width: 130px;
+    height: 90px;
+    margin-top: -30px;
+}
+
+#botao-entrar{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    background: #e50914;    
+    border: 0; 
+    border-radius: 3px; 
+    float: right;  
+    cursor: pointer;
+}
+
+#botao-entrar:hover {
+    background: red;
+}
+
+#caixa-cabecalho{    
+    padding: 28px 56px;  
+    top:10px; 
+}
+ 
+h1{    
+    font-size: 50px;
+    text-align: center; 
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 135px;
+}
+
+#paragrafo{    
+    font-size: 30px;
+    text-align: center; 
+    margin-top: 12px;
+}
+
+#paragrafo2{    
+    margin-top: 22px;
+    text-align: center;
+    font-size: 23px;
+}
+input{
+    width: 500px;
+    font-size: 20px;
+    color:black;
+    padding: 10px;
+}
+
+#botao-email{
+    width: 250px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+#botao-email:hover {
+    opacity: 0.8;
+    background: red;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+}
+
+#rodape{
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 70px 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#botao-pergunta{
+    width: 700px;
+    height: 70px;
+    background-color: #303030;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    
+}
+
+#imagem-pergunta{
+    float: right;
+    margin-top: 8px; 
+    transform: rotate(45deg);  
+}
+#imagem-pergunta-girar{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+
+#pergunta{
+    width: 700px;
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding: 24px;
+    font-size: 24px;
+   
+}
+
+.paragrafo-pergunta{
+    font-size: 24px;
+}
